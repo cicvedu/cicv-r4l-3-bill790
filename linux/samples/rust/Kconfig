@@ -127,6 +127,15 @@ config SAMPLE_RUST_FS
 	  the module will be called rust_fs.
 
 	  If unsure, say N.
+config SAMPLE_RUST_HELLOWORLD
+	tristate "hello,world in rust"
+	help
+	  This option builds the Rust file system sample.
+
+	  To compile this as a module, choose M here:
+	  the module will be called rust_fs.
+
+	  If unsure, say N.
 
 config SAMPLE_RUST_NETFILTER
 	tristate "Network filter module"
